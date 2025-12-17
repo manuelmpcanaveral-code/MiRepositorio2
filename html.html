@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deportes - Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Deportes 360</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Equipos</a></li>
+                <li><a href="#">Resultados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Bienvenidos a Deportes 360</h2>
+            <p>La mejor información sobre tus deportes favoritos.</p>
+        </section>
+
+        <section class="deportes">
+            <h3>Últimas noticias deportivas</h3>
+            <div class="deporte">
+                <h4>Fútbol</h4>
+                <p>Descubre todo sobre los últimos partidos y resultados.</p>
+                <button onclick="mostrarNoticia('futbol')">Ver Noticia</button>
+            </div>
+            <div class="deporte">
+                <h4>Baloncesto</h4>
+                <p>Conoce los detalles de la última jornada de la NBA.</p>
+                <button onclick="mostrarNoticia('baloncesto')">Ver Noticia</button>
+            </div>
+            <div class="deporte">
+                <h4>Tenis</h4>
+                <p>Entérate de las novedades de los torneos más importantes.</p>
+                <button onclick="mostrarNoticia('tenis')">Ver Noticia</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Deportes 360. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
